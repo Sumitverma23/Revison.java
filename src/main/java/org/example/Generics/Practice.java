@@ -138,8 +138,8 @@ void addNumbers(List<? super Integer> list) {
     list.add(10);
     list.add(20);
 }
-
-
 can we use generics with arrays?
 Java does not allow generic array creation because generics use type erasure while arrays retain type information at runtime, which can cause type safety issues.
  */
+
+
